@@ -51,14 +51,18 @@ We also calculated the standard deefviations of each individual stock, this woul
 Through this we were able to make the following conclusions:
 
 #### Descriptive Statistics
-Mean Prices: The average opening, high, low, and close prices are roughly similar, hovering around $83, indicating consistent trading ranges.
-Standard Deviation: There is a high standard deviation in the price data, suggesting significant variability in stock prices, which could be due to stock volatility or differences across various stocks.
-Volume: Trading volume shows a wide range, with a mean of about 4.32 million shares traded per day. The maximum trading volume recorded is extraordinarily high at over 618 million shares.
+- Mean Prices: The average opening, high, low, and close prices are roughly similar, hovering around $83, indicating consistent trading ranges.
+
+- Standard Deviation: There is a high standard deviation in the price data, suggesting significant variability in stock prices, which could be due to stock volatility or differences across various stocks.
+
+- Volume: Trading volume shows a wide range, with a mean of about 4.32 million shares traded per day. The maximum trading volume recorded is extraordinarily high at over 618 million shares.
 
 #### Feature Representation
-Dates: The dataset covers 1,259 unique dates.
-Stock Names (Tickers): There are 500 different stock tickers represented, implying the dataset spans a broad array of companies.
-Price Points: The dataset contains a large number of unique open, high, low, and close values, indicating a detailed and comprehensive stock price record.
+- Dates: The dataset covers 1,259 unique dates.
+
+- Stock Names (Tickers): There are 500 different stock tickers represented, implying the dataset spans a broad array of companies.
+
+- Price Points: The dataset contains a large number of unique open, high, low, and close values, indicating a detailed and comprehensive stock price record.
 
 # Primary Analysis 
 
