@@ -69,6 +69,7 @@ Along with our prelimanary data exploraiton we employed some testing techniques 
 
 ### Chi Squared Test
 The main focus of a chi squared test is to to determine if a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables in our data. Our hypothesis for this test was "Is there a  statistically significant association between the sectors and volatility?"
+
 <img width="1466" alt="Screenshot 2024-07-03 at 11 12 23 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/4e93008f-ab06-45a8-9257-c075ef294912">
 
 #### Interpertation of Chi Squared Results
@@ -87,7 +88,43 @@ The main focus of a chi squared test is to to determine if a difference between 
 
 - The presence of outliers in sectors like Consumer Discretionary and Technology could be due to specific events or conditions affecting certain companies within those sectors, meriting further investigation to understand the causes of these extreme values.Investors might use this information to assess risk and make decisions about diversifying their portfolios.
 
+
+
 ### Z - Tests
+z -tests are a statistical way of testing a hypothesis, when we know the population variance. The P - value helps us understand if the stock performed well, or under performed. The z - statistic helps us understand if there is a strong stastical signifigance to back up that claim.
+
+<img width="761" alt="Screenshot 2024-07-03 at 11 23 58 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/f9cc0075-2d31-4900-bcac-0e9097799154">
+
+#### Interpertation of z - test results 
+
+<img width="1072" alt="Screenshot 2024-07-03 at 11 25 45 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/89a64ec9-21fa-4eb1-b434-6a8ea09aeb34">
+
+
+###### Sector-Specific Results Analysis:
+
+- Consumer Discretionary
+Z-Statistic: 2.746715 P-Value: 0.006020 Interpretation: This sector performed significantly better than average, with strong statistical evidence (p-value < 0.05) supporting this performance.
+
+- Finance
+Z-Statistic: -0.886539 P-Value: 0.375327 Interpretation: This sector underperformed relative to the average, but the result is not statistically significant (p-value > 0.05), indicating the performance could be due to chance.
+
+- Industrial
+Z-Statistic: -0.226402 P-Value: 0.820889 Interpretation: This sector also underperformed, but the result is not statistically significant, suggesting the performance could be random.
+
+- Energy
+Z-Statistic: 0.882831 P-Value: 0.377328 Interpretation: The sector slightly outperformed the average, but the result is not statistically significant, indicating the performance could be due to chance.
+
+- Healthcare
+Z-Statistic: -0.370419 P-Value: 0.711070 Interpretation: This sector underperformed, but the result is not statistically significant, suggesting randomness in the performance.
+
+- Consumer Staples
+Z-Statistic: 2.907144 P-Value: 0.003647 Interpretation: This sector performed significantly better than average, with strong statistical evidence (p-value < 0.05) supporting this performance.
+
+- Technology
+Z-Statistic: -0.786593 P-Value: 0.431520 Interpretation: This sector underperformed, but the result is not statistically significant, indicating the performance could be due to chance.
+
+Overall, Consumer Discretionary and Consumer Staples sectors show notable outperformance based on historical data, whereas other sectors do not show significant deviations from the average performance.
+
 
 
 
