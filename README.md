@@ -39,6 +39,20 @@ The dataset used in this project is sourced from Kaggle. It contains historical 
 
 
 # Exploratory Data Analysis
+After cleaning the data and getting it ready for analysis we moved on to do some prelimanary data analysis. This portion of the data analysis was mostly geared towards figuring out som large scale statisitcs about the data set. What were the max and min values of all of the coloumns, the standard deviations, and the mean. This portion was really just for us to understand what the scale of the data set was and to look for any large variations in the data that might throw our primary analysis off course. 
+<img width="702" alt="Screenshot 2024-07-03 at 10 56 39 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/cc62176a-4cd7-471e-acdf-b306ff06da8e">
+
+Through this we were able to make the following conclusions:
+
+#### Descriptive Statistics
+Mean Prices: The average opening, high, low, and close prices are roughly similar, hovering around $83, indicating consistent trading ranges.
+Standard Deviation: There is a high standard deviation in the price data, suggesting significant variability in stock prices, which could be due to stock volatility or differences across various stocks.
+Volume: Trading volume shows a wide range, with a mean of about 4.32 million shares traded per day. The maximum trading volume recorded is extraordinarily high at over 618 million shares.
+
+#### Feature Representation
+Dates: The dataset covers 1,259 unique dates.
+Stock Names (Tickers): There are 500 different stock tickers represented, implying the dataset spans a broad array of companies.
+Price Points: The dataset contains a large number of unique open, high, low, and close values, indicating a detailed and comprehensive stock price record.
 
 # Primary Analysis 
 
