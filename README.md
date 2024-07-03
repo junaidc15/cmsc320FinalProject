@@ -12,6 +12,8 @@ The S&P 500, a benchmark index comprising 500 of the largest publicly traded com
 
 Answering these questions holds significant importance for both investors and analysts. Accurate stock price predictions can inform investment strategies, helping individuals and institutions make more informed decisions and potentially increase their returns. Additionally, understanding sector performance can provide insights into economic trends, guiding policy-making and investment allocations. By exploring these questions, our project not only showcases the practical applications of data science in finance but also contributes valuable knowledge to the field of financial analytics.
 
+
+
 # Data Curation
 
 The dataset used in this project is sourced from Kaggle. It contains historical stock market data for various companies listed in the S&P 500 index over a five-year period. The data includes daily records of stock prices (open, high, low, close), trading volume, and the stock ticker symbol. This dataset provides a comprehensive view of the stock performance for companies within the S&P 500, making it suitable for analyzing trends, predicting future prices, and comparing sector performances. A large data set like this (619,000 rows) gives us the perfect playing field to do some machine learning! But first we need to transform the data to meet our needs. 
@@ -36,6 +38,10 @@ The dataset used in this project is sourced from Kaggle. It contains historical 
 - Removing tickers that are not currenlty in the S&P 500
 
 ![Screenshot 2024-06-29 at 5 35 42 PM](https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/abb43804-c165-4f63-977e-b084270aa14e)
+
+
+
+
 
 
 # Exploratory Data Analysis
@@ -66,6 +72,8 @@ Through this we were able to make the following conclusions:
 
 ## Data Analysis through testing
 Along with our prelimanary data exploraiton we employed some testing techniques that would help us gather greater understanding of the data set for our primary analysis. 
+
+
 
 ### Chi Squared Test
 The main focus of a chi squared test is to to determine if a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables in our data. Our hypothesis for this test was "Is there a  statistically significant association between the sectors and volatility?"
@@ -101,7 +109,7 @@ The Z-test is used to determine if there is a significant difference between the
 <img width="1072" alt="Screenshot 2024-07-03 at 11 25 45 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/89a64ec9-21fa-4eb1-b434-6a8ea09aeb34">
 
 
-###### Sector-Specific Results Analysis:
+##### Sector Specific Observations
 
 - Consumer Discretionary
 Z-Statistic: 2.746715 P-Value: 0.006020 Interpretation: This sector performed significantly better than average, with strong statistical evidence (p-value < 0.05) supporting this performance.
@@ -147,7 +155,7 @@ The ANOVA (Analysis of Variance) test is used to determine if there are statisti
 - The failure of rejection of the null hypothesis implies that not all sectors have the same mean daily return. This finding strongly suggests that sector-specific factors likely influence the stock returns, and these factors cause significant differences between the average returns of different sectors.
 
   
-###### Sector Analysis 
+##### Sector Specific Observations
 Finance: This sector shows a compact distribution of returns around the median, indicating less volatility in daily returns. However, there are several outliers, particularly on the negative side.
 
 Industrial: Similar to finance, industrial has a narrow IQR but fewer outliers. This suggests more stable returns but with occasional extremes.
@@ -161,6 +169,11 @@ Healthcare: Similar pattern to energy, with a tight IQR and outliers. This secto
 Consumer Staples: Shows moderate variability with few outliers, indicating relatively stable returns.
 
 Technology: This sector has one of the widest IQRs, reflecting significant day-to-day variation in returns. Also, there are many outliers, particularly on the positive side, suggesting the potential for high returns.
+
+
+
+
+
 
 # Primary Analysis 
 
