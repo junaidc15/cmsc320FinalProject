@@ -91,7 +91,8 @@ The main focus of a chi squared test is to to determine if a difference between 
 
 
 ### Z - Tests
-z -tests are a statistical way of testing a hypothesis, when we know the population variance. The P - value helps us understand if the stock performed well, or under performed. The z - statistic helps us understand if there is a strong stastical signifigance to back up that claim.
+The Z-test is used to determine if there is a significant difference between the means of two groups or between a sample mean and a known population mean. The Z-value measures the number of standard deviations a data point is from the population mean, indicating the magnitude of difference. The p-value indicates the probability that the observed difference occurred by chance; a low p-value (typically < 0.05) suggests that the difference is statistically significant.
+
 
 <img width="761" alt="Screenshot 2024-07-03 at 11 23 58 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/f9cc0075-2d31-4900-bcac-0e9097799154">
 
@@ -126,9 +127,39 @@ Z-Statistic: -0.786593 P-Value: 0.431520 Interpretation: This sector underperfor
 Overall, Consumer Discretionary and Consumer Staples sectors show notable outperformance based on historical data, whereas other sectors do not show significant deviations from the average performance.
 
 
+### ANOVA Test 
+The ANOVA (Analysis of Variance) test is used to determine if there are statistically significant differences between the means of three or more independent groups. The F-value in ANOVA measures the ratio of variance between the group means to the variance within the groups, indicating the extent of difference among group means. The p-value indicates the probability that the observed differences among group means occurred by chance; a low p-value (typically < 0.05) suggests that the differences are statistically significant.
 
+<img width="993" alt="Screenshot 2024-07-03 at 11 35 30 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/3d8af463-d12b-4f78-9ecb-3d1b022f529a">
 
+<img width="862" alt="Screenshot 2024-07-03 at 11 36 19 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/582562c9-9246-4c0c-b4ad-3111ae698bb5">
 
+#### Interpertation of the ANOVA testing
+- The F-statistic value is 0.7327. With this F-statistic, we can expect greater variability between group means relative to the variability within the groups.
+
+- The p-value is 0.6231. This value indicates the probability of observing the data, or something more extreme, if the null hypothesis (that all group means are equal) is true.
+
+- Statistical Significance: Since the p-value (0.6231) is more than the common significance level of 0.05, we fail to reject the null hypothesis. This suggests that there is not a statistically significant difference in the daily returns across different sectors.
+
+- The failure of rejection of the null hypothesis implies that not all sectors have the same mean daily return. This finding strongly suggests that sector-specific factors likely influence the stock returns, and these factors cause significant differences between the average returns of different sectors.
+
+  
+<img width="1082" alt="Screenshot 2024-07-03 at 11 40 42 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/558fd0a0-98ca-4b75-b336-458e1f5fe281">
+
+##### Sector Analysis 
+Finance: This sector shows a compact distribution of returns around the median, indicating less volatility in daily returns. However, there are several outliers, particularly on the negative side.
+
+Industrial: Similar to finance, industrial has a narrow IQR but fewer outliers. This suggests more stable returns but with occasional extremes.
+
+Consumer Discretionary: Exhibits a slightly higher spread in returns (wider box), indicating more variability in daily returns. There are outliers on both the high and low ends.
+
+Energy: Displays a very tight IQR with several high and low outliers, suggesting that while most daily returns are close to the median, extreme values are not uncommon.
+
+Healthcare: Similar pattern to energy, with a tight IQR and outliers. This sector might experience occasional spikes or drops in returns.
+
+Consumer Staples: Shows moderate variability with few outliers, indicating relatively stable returns.
+
+Technology: This sector has one of the widest IQRs, reflecting significant day-to-day variation in returns. Also, there are many outliers, particularly on the positive side, suggesting the potential for high returns.
 
 # Primary Analysis 
 
