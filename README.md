@@ -81,7 +81,7 @@ The main focus of a chi squared test is to to determine if a difference between 
 
 -Since the p-value is greater than 0.05, it suggests that there is not enough evidence to reject the null hypothesis at the 5% significance level. Therefore, it is concluded that there is no statistically significant association between the sectors and volatility classes, although it's very close to the threshold.
 
-#### Sector Specific Observations
+##### Sector Specific Observations
 - Consumer Discretionary, Finance, and Industrial have relatively similar median volatilities with tighter IQRs, indicating less variation within the middle 50% of data points. But, Consumer Discretionary has notable lower outliers. Energy and Healthcare show a higher median volatility compared to the others, with the Energy sector displaying more variability as evidenced by longer whiskers.
 
 - Consumer Staples and Technology have both upper and lower outliers, with Technology displaying a wide range. This may suggest higher volatility in stock prices within these sectors compared to others like Finance. Sectors like Technology and Energy show larger variability in stock volatility, possibly indicating a more dynamic market environment or higher risk. But in contrast, Finance and Industrial show more stability.
@@ -147,7 +147,7 @@ The ANOVA (Analysis of Variance) test is used to determine if there are statisti
 - The failure of rejection of the null hypothesis implies that not all sectors have the same mean daily return. This finding strongly suggests that sector-specific factors likely influence the stock returns, and these factors cause significant differences between the average returns of different sectors.
 
   
-##### Sector Analysis 
+###### Sector Analysis 
 Finance: This sector shows a compact distribution of returns around the median, indicating less volatility in daily returns. However, there are several outliers, particularly on the negative side.
 
 Industrial: Similar to finance, industrial has a narrow IQR but fewer outliers. This suggests more stable returns but with occasional extremes.
