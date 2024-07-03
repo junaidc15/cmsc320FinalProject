@@ -42,6 +42,12 @@ The dataset used in this project is sourced from Kaggle. It contains historical 
 After cleaning the data and getting it ready for analysis we moved on to do some prelimanary data analysis. This portion of the data analysis was mostly geared towards figuring out som large scale statisitcs about the data set. What were the max and min values of all of the coloumns, the standard deviations, and the mean. This portion was really just for us to understand what the scale of the data set was and to look for any large variations in the data that might throw our primary analysis off course. 
 <img width="702" alt="Screenshot 2024-07-03 at 10 56 39 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/cc62176a-4cd7-471e-acdf-b306ff06da8e">
 
+We also calculated the standard deefviations of each individual stock, this would help us understand if a stock had low or high volatility 
+
+<img width="681" alt="Screenshot 2024-07-03 at 11 05 56 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/feb87c4a-8240-41a9-ad0f-ad0dd58bb935">
+
+<img width="583" alt="Screenshot 2024-07-03 at 11 06 13 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/b1e300a8-333a-4c3c-ad54-24542195d6ba">
+
 Through this we were able to make the following conclusions:
 
 #### Descriptive Statistics
