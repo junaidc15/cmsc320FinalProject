@@ -64,6 +64,35 @@ Through this we were able to make the following conclusions:
 
 - Price Points: The dataset contains a large number of unique open, high, low, and close values, indicating a detailed and comprehensive stock price record.
 
+## Data Analysis through testing
+Along with our prelimanary data exploraiton we employed some testing techniques that would help us gather greater understanding of the data set for our primary analysis. 
+
+### Chi Squared Test
+The main focus of a chi squared test is to to determine if a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables in our data. Our hypothesis for this test was "Is there a  statistically significant association between the sectors and volatility?"
+<img width="1466" alt="Screenshot 2024-07-03 at 11 12 23 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/4e93008f-ab06-45a8-9257-c075ef294912">
+
+#### Interpertation of Chi Squared Results
+<img width="1234" alt="Screenshot 2024-07-03 at 11 16 07 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/4a025c82-8b4c-4a1c-ba66-fd147e97772b">
+
+-The Chi-Square Statistic is approximately 20.508. This value measures the difference between the observed frequencies in the contingency tables and the frequencies expected if sectors and volatility categories were independent.A higher value indicates a greater divergence from independence.
+
+-P-Value (0.05806): This p-value tests the null hypothesis that sector and volatility classification are independent of each other.
+
+-Since the p-value is greater than 0.05, it suggests that there is not enough evidence to reject the null hypothesis at the 5% significance level. Therefore, it is concluded that there is no statistically significant association between the sectors and volatility classes, although it's very close to the threshold.
+
+#### Sector Specific Observations
+- Consumer Discretionary, Finance, and Industrial have relatively similar median volatilities with tighter IQRs, indicating less variation within the middle 50% of data points. But, Consumer Discretionary has notable lower outliers. Energy and Healthcare show a higher median volatility compared to the others, with the Energy sector displaying more variability as evidenced by longer whiskers.
+
+- Consumer Staples and Technology have both upper and lower outliers, with Technology displaying a wide range. This may suggest higher volatility in stock prices within these sectors compared to others like Finance. Sectors like Technology and Energy show larger variability in stock volatility, possibly indicating a more dynamic market environment or higher risk. But in contrast, Finance and Industrial show more stability.
+
+- The presence of outliers in sectors like Consumer Discretionary and Technology could be due to specific events or conditions affecting certain companies within those sectors, meriting further investigation to understand the causes of these extreme values.Investors might use this information to assess risk and make decisions about diversifying their portfolios.
+
+### Z - Tests
+
+
+
+
+
 # Primary Analysis 
 
 # Visualization
