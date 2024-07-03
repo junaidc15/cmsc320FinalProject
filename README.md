@@ -135,6 +135,9 @@ The ANOVA (Analysis of Variance) test is used to determine if there are statisti
 <img width="862" alt="Screenshot 2024-07-03 at 11 36 19 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/582562c9-9246-4c0c-b4ad-3111ae698bb5">
 
 #### Interpertation of the ANOVA testing
+
+<img width="1082" alt="Screenshot 2024-07-03 at 11 40 42 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/558fd0a0-98ca-4b75-b336-458e1f5fe281">
+
 - The F-statistic value is 0.7327. With this F-statistic, we can expect greater variability between group means relative to the variability within the groups.
 
 - The p-value is 0.6231. This value indicates the probability of observing the data, or something more extreme, if the null hypothesis (that all group means are equal) is true.
@@ -144,8 +147,6 @@ The ANOVA (Analysis of Variance) test is used to determine if there are statisti
 - The failure of rejection of the null hypothesis implies that not all sectors have the same mean daily return. This finding strongly suggests that sector-specific factors likely influence the stock returns, and these factors cause significant differences between the average returns of different sectors.
 
   
-<img width="1082" alt="Screenshot 2024-07-03 at 11 40 42 AM" src="https://github.com/junaidc15/cmsc320FinalProject/assets/158375378/558fd0a0-98ca-4b75-b336-458e1f5fe281">
-
 ##### Sector Analysis 
 Finance: This sector shows a compact distribution of returns around the median, indicating less volatility in daily returns. However, there are several outliers, particularly on the negative side.
 
