@@ -177,6 +177,8 @@ Technology: This sector has one of the widest IQRs, reflecting significant day-t
 
 # Primary Analysis 
 
+Based on our two primary questions: "Can we accurately predict future stock prices based on historical data?" and "How do different sectors within the S&P 500 compare in terms of performance over time?" A regression analysis would be the most suitable. Regressions are designed for scenarios just like this where predictions are needed to be made. Taking in past trends and data a regression model can help us make informative decisions for the future. The regression machine learning technique can take in many variables from our data that will be needed to make predictions. Many variables in economics such as stock price, volume, and other factors are crucial so the machine can make more accurate decisions. 
+
 # Visualization
 
 # Insights and Conclusions
