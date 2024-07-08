@@ -206,6 +206,7 @@ The Summer 2024 Data Science Project aimed to harness historical S&P 500 data to
 Informed Understanding:
 
 For Uninformed Readers: The project meticulously explains the S&P 500's significance, outlines the machine learning methodologies employed, and discusses the findings in a way that educates readers about the basics of stock market analytics. Uninformed readers gain a foundational understanding of how data science can predict stock market trends and the factors influencing sector performances.
+
 For Informed Readers: Even those familiar with financial analytics would find the detailed examination of sector-specific performances enlightening. The application of various statistical tests (Chi-Squared, Z-Tests, ANOVA) to real-world data offers insights into the practical challenges and complexities of predicting stock prices and sector behaviors.
 Key Findings:
 
