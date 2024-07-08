@@ -180,6 +180,23 @@ Technology: This sector has one of the widest IQRs, reflecting significant day-t
 Based on our two primary questions: "Can we accurately predict future stock prices based on historical data?" and "How do different sectors within the S&P 500 compare in terms of performance over time?" A regression analysis would be the most suitable. Regressions are designed for scenarios just like this where predictions are needed to be made. Taking in past trends and data a regression model can help us make informative decisions for the future. The regression machine learning technique can take in many variables from our data that will be needed to make predictions. Many variables in economics such as stock price, volume, and other factors are crucial so the machine can make more accurate decisions.
 
 # Visualization
+Regression Analysis:
+Purpose: Used to predict future stock prices based on historical data.
+Findings: Predictive models like regression can leverage past price movements, volume, and other economic indicators to forecast future price trends, though accuracy can be influenced by market volatility and external factors.
+Sector Performance Analysis:
+
+Method: Comparison of different sectors' performances using statistical tests (ANOVA, Chi-Squared, Z-tests).
+Key Insights:
+Consumer Discretionary and Consumer Staples sectors demonstrated statistically significant outperformance.
+Finance, Industrial, and Technology sectors exhibited more stability with occasional deviations.
+ANOVA results indicated no significant overall differences in daily returns across sectors, suggesting similar intra-sector performance variability.
+Data Curation and Transformation
+Data Source: Historical stock market data from Kaggle, covering various metrics over five years.
+Process: Data was cleaned to handle missing values and filtered to include only current S&P 500 companies. This ensures analysis is relevant to the current market composition.
+Statistical Analysis
+Chi-Squared Test: Aimed to explore the independence between sectors and stock volatility, finding no significant associations.
+Z-Test: Evaluated how different sectors' returns deviate from the overall mean, identifying specific sectors that either outperformed or underperformed.
+ANOVA: Analyzed variance in daily returns across sectors and concluded no substantial differences, suggesting external factors may influence sector-specific performances.
 
 # Insights and Conclusions
 
